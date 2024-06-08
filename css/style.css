@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+
+.logo a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.links {
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.links li {
+    list-style: none;
+}
+
+.links a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(../img/index-bg.png) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.content {
+    color: #ffffff;
+    margin-top: auto;
+    text-align: center;
+}
+
+.big-text {
+    font-size: 86px;
+    font-weight: 600;
+}
+
+.small-text {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+button {
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    background: #FF9029;
+    padding: 1rem 2rem;
+}
+
+.buttons {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.sign-up {
+    display: flex;
+    height: 100vh;
+}
+
+.image-sign-up {
+    background: url(../img/sign-up.jpg) no-repeat center 100%;
+    background-size: cover;
+    flex: 5;
+}
+
+.form-container {
+    flex: 4;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    width: 100%;
+    height: 100vh;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.form input {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 1rem;
+    border: 2px solid #000000;
+    border-radius: 4px;
+}
+
+.form .field {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.submit {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.submit button {
+    margin-bottom: 1rem;
+}
+
+.submit a:link {
+    color: #FF9029;
+}
+
+.sign-in {
+    display: flex;
+    height: 100vh;
+}
+
+.image-sign-in {
+    background: url(../img/sign-in.png) no-repeat center 97%;
+    background-size: cover;
+    flex: 5;
+}

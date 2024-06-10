@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -16,7 +16,7 @@ body {
 .header {
     display: flex;
     align-items: center;
-    padding: 1rem;
+    padding: 0.6rem 1.4rem;
     justify-content: space-between;
     background-color: #ffffff;
 }
@@ -24,17 +24,17 @@ body {
 .logo a{
     text-decoration: none;
     color: inherit;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 600;
 }
 
 .links {
     display: flex;
-    gap: 1rem;
+    gap: 1.4rem;
     margin: 0;
     padding: 0;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .links li {
@@ -153,4 +153,57 @@ button {
     background: url(../img/sign-in.png) no-repeat center 97%;
     background-size: cover;
     flex: 5;
+}
+
+.about-bg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: url(../img/about-bg.png) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.text-about {
+    /* font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 800px;
+    padding-right: 100px;
+    padding-top: 250px;
+    padding-bottom: 250px; */
+    padding: 2rem;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: left;
+    color: #ffffff;
+    flex: 1;
+    text-wrap: stable;
+}
+
+.text-about p {
+    padding-right: 4rem;
+    padding-left: 2rem;
+}
+
+.img-about {
+    /* float: left;
+    margin-left: 50px;
+    margin-top: 180px; */
+    /* margin: auto; */
+    /* padding: 4rem;
+    border-radius: 5rem; */
+    flex: 1;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.img-about img {
+    height: 50vh;
+    width: auto;
+    margin-left: auto;
+    border-radius: 1rem;
 }
